@@ -5,13 +5,18 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 <meta charset="utf-8">
 </head>
-<body>
+<body style="background-image: url('background2.jpg'); background-repeat: repeat;">
 <div id="wrapper">
 <main>
 <h1>Congratulations!</h1>
-<h1>You have Received:</h1>
-<h1>Do you accept this gift?</h1>
-<a href="open.html">Yes</a><a href="open.html">No</a>
+<h2>You have Received:</h2>
+<img src="dove.jpg" alt="Present"/>
+<h3>1 Limited-edition One-of-a-kind White Dove Wine Bottle Holder ID:24601</h3>
+<h2>Do you accept this gift?</h2>
+<a href="bonus.html">Yes</a><a href="#" id="no" onClick="(function(){
+    alert('Wrong Answer');
+    return false;
+})();return false;">No</a>
 </main>
 </div>
 </body>

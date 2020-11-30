@@ -3,3 +3,147 @@
 	margin-right: auto;
 	width: 60%;
 }
+
+main {
+	text-align: center;
+	background-color: white;
+	border: 5px green groove;
+	border-radius: 50px;
+	padding: 20px;
+	min-width: 600px;
+}
+
+body {
+	background-image: url("background1.jpg");
+	background-repeat: repeat;
+}
+
+a {
+	display: inline-block;
+	border: 5px green outset;
+	border-radius: 10px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: green;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 150%;
+	padding: 2px;
+}
+
+a:hover {
+	border: 5px green inset;
+}
+
+#no {
+	border: 5px red outset;
+	background: red;
+}
+
+#no:hover {
+	border: 5px red inset;
+}
+
+h1 {
+	animation: rainbow 3s linear;
+	animation-iteration-count: infinite;
+	font-family: Impact;
+	font-size: 300%;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 200%;
+	margin: 10px;
+	animation: christmas 5s linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+
+@keyframes christmas{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		50%{
+			color: rgb(0,255,0);
+		}
+}
